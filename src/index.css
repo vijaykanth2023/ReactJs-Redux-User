@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=BhuTuka+Expanded+One&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Pacifico&display=swap');
+body {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #c6cae4 !important;
+}
+h1{
+  font-family: 'Pacifico', cursive !important;
+}
+input, button{
+  font-family: 'Montserrat' !important;
+}
+.list_button, .list_button h6{
+  color:rgb(24, 105, 58) !important;
+  text-decoration: none;
+}
+.list_button h6{
+  box-shadow: 1px 1px 8px #3a6b3ab5;
+  padding: 15px 45px;
+  border-radius: 8px;
+  background-color: #cfcfcf;
+}
+input, input:focus{
+  padding: 10px;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #3f3e3e;
+  outline: none;
+  margin-bottom: 15px !important;
+}
+button{
+  background-color: rgb(44, 72, 88);
+  border: transparent;
+  font-family: 'Pacifico', cursive !important;
+  color: #ffffff;
+  padding: 10px 45px;
+  border-radius: 8px !important;
+}
+code {
+  font-family: 'Pacifico', cursive;
+  font-weight: 900;
+}
+.user_list_view{
+  box-shadow:1px 4px 3px #7a66aa;
+  width:50%;
+  background-color: #f0eded;
+  border-radius: 5px;
+  padding: 10px;
+}
+.user_list_view li{
+  list-style: none;
+}
+.user_list_view li h3, .user_list_view li p{
+  margin: 0px !important;
+  font-family: 'Pacifico', cursive;
+  padding: 5px 10px;
+}
+.card_title{
+  color:#103277;
+  font-family: 'Montserrat' !important;
+  font-weight: 900;
+  font-size: 24px;
+}
